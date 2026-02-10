@@ -13,7 +13,7 @@ int main() {
     int totalQuestions = 10;
     int level;
 
-    cout << "🎮 Welcome to the Kids Math Game!\n";
+    cout << " Welcome to the Kids Math Game!\n";
     cout << "Choose Difficulty Level:\n";
     cout << "1. Easy\n2. Medium\n3. Hard\n";
     cout << "Enter your choice: ";
@@ -25,17 +25,17 @@ int main() {
     if (level == 1) {
         maxAddSub = 10;
         maxMul = 5;
-        cout << "\n✅ Easy Mode Selected!\n\n";
+        cout << "\n Easy Mode Selected!\n\n";
     }
     else if (level == 2) {
         maxAddSub = 50;
         maxMul = 10;
-        cout << "\n⚡ Medium Mode Selected!\n\n";
+        cout << "\n Medium Mode Selected!\n\n";
     }
     else {
         maxAddSub = 200;
         maxMul = 15;
-        cout << "\n🔥 Hard Mode Selected!\n\n";
+        cout << "\n Hard Mode Selected!\n\n";
     }
 
     for (int i = 1; i <= totalQuestions; i++) {
@@ -84,15 +84,15 @@ int main() {
         cin >> userAnswer;
 
         if (userAnswer == correctAnswer) {
-            cout << "✅ Correct!\n\n";
+            cout << " Correct!\n\n";
             score++;
         } else {
-            cout << "❌ Wrong! Correct answer: "
+            cout << " Wrong! Correct answer: "
                  << correctAnswer << "\n\n";
         }
     }
 
-    cout << "🎯 Game Over!\n";
+    cout << " Game Over!\n";
     cout << "Final Score: " << score << " / " << totalQuestions << endl;
 
     return 0;
