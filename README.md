@@ -1,5 +1,5 @@
 # C-_Final_Project_Marta
-This is the final c++ project
+This is the math game for kids to make sure that the don't have any problems with the basic math. Game has 3 difficulty levels. This game encourages them to love math and to not be scared of it.
 
 
 
